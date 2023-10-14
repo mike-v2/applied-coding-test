@@ -3,14 +3,14 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='pt-8'>
-      <div className='flex flex-col gap-y-4'>
+      <header className='flex flex-col gap-y-4'>
         <h1 className='max-w-xl text-6xl font-semibold leading-tight'>
           Where creators run their business
         </h1>
         <button className='w-40 bg-blue-600 text-white py-3 px-6 rounded-md whitespace-nowrap hover:bg-blue-800 text-sm active:focus:scale-95 transition-all ease-out'>
           Get Started
         </button>
-      </div>
+      </header>
       <div className='flex flex-col md:flex-row w-fit pt-16 mx-auto'>
         <div className='relative'>
           <Image src='/images/stock-photo-1.jpg' width={400} height={400} alt='credit card transaction' />
